@@ -1,0 +1,83 @@
+1)create resporatory in git
+2)open drive cmd
+3)git clone path
+4)cd file name
+5)open drive cmd code .
+6)create file
+server.js
+module.js
+7)open terminal
+npm init
+enter 7 time
+npm install express
+8)create .gitignore file
+9)create dockerfile
+10)in cmd
+git status 
+git add .
+git commit -m "give msg"
+git push
+
+
+---open AWS--
+
+1)create instance
+2)security 
+edit inbound rule
+type- all traffic
+ssm
+3)connect instance
+4)sudo su
+5)apt update
+6)apt install docker.io
+7)systemctl start docker
+8)systemctl enable docker
+9)systemctl status docker
+active(running)
+10)docker images
+11)docker run run -d -p 8080:80 nginx
+12)docker ps
+13)apt install git
+14)git clone path of gitfile
+15)cd filename
+16)docker build -t nodeapp .
+
+Amazon Linux command on AWS EC2
+---------------------------------------
+0.sudo yum update
+1.sudo yum install docker
+2.sudo systemctl start docker
+3.sudo systemctl enable docker
+4.sudo docker images
+5.sudo systemctl status docker
+6.sudo yum install git
+{
+If we don't want to add git file.
+then pull from docker 
+
+
+((((sudo docker pull nginx))))
+
+
+}
+
+7.git clone <link>     //sudo rm -r <Solution>
+8.ls  						--> check file
+9.cd Solution
+10.sudo docker build -t <name> .
+11.sudo docker run -d -p 2800:3000 <img id>
+12.sudo docker ps
+13.If we want to kill container (sudo docker kill container_Id)
+
+
+--------------------------------
+git status
+git add .
+git commit -m "new file"
+git push
+
+git clone path
+cd folderrepo
+docker build -t name .
+docker run -d -p port:localport name
+copy public ip address run in crome ====>ip/home
